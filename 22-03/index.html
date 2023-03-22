@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./animal.js"></script>
+    <script src="./cavalo.js"></script>
+    <script src="./peixe.js"></script>
+    <script src="./mamifero.js"></script>
+</head>
+<body>
+    <script>
+        
+        let a = new Animal('Camelo', 150, 4, 'Amarelo', 'Terra', 2000)
+        a.AlterarPatas(2)
+        a.Dados(a)
+
+        let t = new Peixe('Tubarao', 300, 0, 'Cinzento', 'Mar', 1.5, 'Barbatana')
+        t.Dados(t)
+        
+        let u = new Mamifero('Urso', 180, 4, 'Vermelho', 'Terra', 0.5, 'Mel')
+        u.Dados(u)
+
+
+    </script>
+  
+</body>
+</html>
